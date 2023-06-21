@@ -30,7 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Funcionalidades</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -38,9 +38,9 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Bienvenido a nuestro proyecto!</div>
                 <div class="masthead-heading text-uppercase ">wasi qampaq</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="masthead-subheading">"Crece con nosotros y amplía tus horizontes inmobiliarios"</div>
+                <!--<a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>-->
             </div>
         </header>
         <!-- Services-->
@@ -57,7 +57,7 @@
                             <i class="fas fa-book fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Administrar</h4>
-                        <p class="text-muted">Gestionar la disponibilidad de la oferta de alquiler de espacios habitacionales y controlar el flujo de ingresos que estos generan.</p>
+                        <p class="text-muted">Gestionar la disponibilidad de la oferta de alquiler de espacios habitacionales y administración de los inmuebles.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -142,6 +142,14 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <ul class="timeline">
+                    <li class="timeline-inverted">
+                        <div class="timeline-image bg-black">
+                            <h4>
+                                NUESTRA
+                                HISTORIA
+                            </h4>
+                        </div>
+                    </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
                         <div class="timeline-panel">
@@ -159,7 +167,7 @@
                                 <h4>Mayo 2023</h4>
                                 <h4 class="subheading">Nace Wasi Qampaq</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">La idea surgió como una solución para la administración de espacios habitacionales que se rentan dentro de inmuebles familiares y el control del flujo de ingresos. Asimismo, también de la publicación de la disponibilidad de los mismos.</p></div>
+                            <div class="timeline-body"><p class="text-muted">La idea surgió como una solución para la administración de espacios habitacionales que se rentan dentro de inmuebles familiares. Así mísmo dar solución al acceso alquiler de habitaciones para los grupos poblacionales comprendidos dentro del NSE-E, NSE-D y NSE-C que no son cubiertos por otras plataformas que brindan servicios similares.</p></div>
                         </div>
                     </li>
                     <li>
@@ -180,17 +188,6 @@
                                 <h4 class="subheading">Precentaciòn del MVP</h4>
                             </div>
                             <div class="timeline-body">Presentación y defensa de nuestro MVP ante el jurado de Holberton School Perú.<p class="text-muted"></p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Esta es 
-                                <br />
-                                nuestra
-                                <br />
-                                historia
-                            </h4>
                         </div>
                     </li>
                 </ul>
@@ -256,81 +253,10 @@
         </section>
         
         <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contáctanos</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar mensaje</button></div>
-                </form>
-            </div>
-        </section>
+        
         <!-- Footer-->
         <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
-                    
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div>
-                </div>
-            </div>
+            
         </footer>
         <!-- Portfolio Modals-->
         <!-- Portfolio item 1 modal popup-->
@@ -347,11 +273,11 @@
                                     <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
                                     
-                                            <p>Fácil registro de usuario y de inmuebles.</p>    
+                                            <p>Registro manual de usuario o ingresa con tu cuenta de Gmail. Fácil registro de inmuebles lo que facilita un manejo sencillo de la plataforma.</p>    
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close
+                                        Cerrar
                                     </button>
                                 </div>
                             </div>
@@ -373,11 +299,11 @@
                                     <h2 class="text-uppercase">Operación</h2>
                                     <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Fácil manejo de la disponibilidad de los espacios habitacionales y reserva de los mismos. Control sencillo de las fechas de ingreso y salida de los arrendatarios. Así como también manejo del flujo de ingresos y control de caja.</p>
+                                    <p>Fácil manejo de la disponibilidad de los espacios habitacionales y reserva de los mismos. Control sencillo de las fechas de ingreso y salida de los arrendatarios.</p>
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close 
+                                        Cerrar 
                                     </button>
                                 </div>
                             </div>
@@ -399,11 +325,11 @@
                                     <h2 class="text-uppercase">Seguridad</h2>
                                     <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Generación de token dinámico de acceso al usuario administrador.</p>
-                                    
+                                    <p>Generación de token dinámico de acceso al usuario administrador, lo que evitará accesos no autorizados e ingreso de código malicioso.</p>
+                            
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close 
+                                        Cerrar
                                     </button>
                                 </div>
                             </div>
